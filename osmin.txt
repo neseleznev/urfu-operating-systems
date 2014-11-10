@@ -1,0 +1,298 @@
+Создатели (+что и когда создали, год присуждения премии):
+
+  Джон фон Нейман
+  Фред Брукс      *)
+  Эдсгер Дейкстра *)
+  Даг Энгельбарт  *)
+  Кен Томпсон     *)
+  Дэнис Ритчи     *)
+  Кен Олсен
+  Гарри Килдалл
+  Тим Паттерсон
+  Джеф Раскин
+  Стив Джобс
+  Дейв Кэтлер
+  Ричард Столлмэн
+  Эндрю Таненбаум
+  Линус Торвальдс
+
+*) - Тьюринговская премия
+
+
+Принципы устройства современных вычислителей (+примеры нарушений):
+
+  двоичное кодирование
+  адресуемость памяти (RAM)
+  программное управление (хранимая в памяти программа)
+  однородность памяти
+  наличие пространства ввода/вывода
+  аппаратная поддержка стека (LIFO)
+  механизм прерываний (внешних и внутренних)
+  уровни привилегий, привилегированные команды (защищённый режим)
+
+
+Типы прерываний (+примеры, происхождение, обработка и применение):
+
+  внутренние
+  внешние
+  немаскируемые
+  программные
+
+
+Команды CMD (+что делают, что возвращают, опции, расширения):
+
+  ver, date, time, at
+  cmd, command, start, title, prompt, pause, echo, cls
+  assoc, ftype
+  type, more, find, sort
+  dir, cd, md, rd, del, ren, move, copy, xcopy, attrib, fc
+  if, for, set, setlocal, endlocal, pushd, popd, shift
+  goto, call, exit
+  fdisk, format, sys, label, chkdsk, chkntfs, scandisk, scandskw
+  cacls
+
+
+Команды UNIX (+что делают, что возвращают, основные опции):
+
+  uname, date, time, ps
+  bash, read, echo, clear, history
+  cat, more, less, find, wc, cut, grep, egrep, sort, yes
+  ls, cd, mkdir, rmdir, rm, mv, cp, chmod, chown
+  diff, touch, du, df, stat
+  if, for, while, case, function, set, env, export
+  function(), sleep, exit
+  top
+  tar, gzip, hd
+  [ -X ] (test), expr, bc
+  fdisk, cfdisk, mkfs, fsck, mount, umount
+  shutdown, poweroff, reboot, su, sudo, passwd
+  who, w, whoami, which
+
+
+Переменные окружения Windows (+что содержат, как и кем используются):
+
+  windir, TEMP, ProgramFiles, CommonProgramFiles, USERPROFILE
+  OS, PROCESSOR_IDENTIFIER, ComSpec, PROMPT
+  Path, PATHEXT, INCLUDE, LIB
+  CD, DATE, TIME, RANDOM, ERRORLEVEL, CMDEXTVERSION, CMDCMDLINE
+  DIRCMD
+
+
+Переменные окружения Unix (+что содержат, как и кем используются):
+
+  PS1, PS2, PS3(?), PS4
+  PATH, RANDOM, PWD, HOME, LOGNAME, USER, UID, PPID
+  HOSTNAME, HOSTTYPE
+  _, ?
+
+
+Утилиты DOS/Win (+что делают, что возвращают, опции и где взять):
+
+  regedit, regedt32, reg
+  runas, rundll32, regsvr32
+  diruse, oh, kill, shutdown
+  windiff
+  choice
+  dskprobe, diskedit, fsutil
+  procmon, diskmon
+  autoruns
+  net
+
+
+Ключи реестра (+кем и как используются):
+
+  HKLM\System\CurrentControlSet\Control\HiveList
+  HKLM\System\CurrentControlSet\Services
+  HKLM\Software\Classes
+  HKCR\CLSID
+  HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer
+    *\NameSpace
+  HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer
+    RunMRU
+    Map Network Drive MRU
+    RecentDocs
+  HKCU(LM)\Software\Microsoft\Windows\CurrentVersion
+    Explorer
+      Advanced
+      User Shell Folders
+    Run
+    RunOnce\Setup
+    Policies
+  HKCU(LM)\Software\Microsoft\Windows NT\CurrentVersion\Winlogon
+  HKCU(LM)\Software\Policies\Microsoft\Internet Explorer
+  HKCU\Console
+  HKCU\Control Panel
+
+
+Структура каталогов в Unix (+их назначение):
+
+  /etc
+  /etc/init.d
+  /var
+  /usr
+  /usr/local
+  /bin
+  /sbin
+  /home
+  /dev
+  /mnt
+  /media
+  /proc
+  /tmp
+
+
+Акселераторы Windows (+что и когда делают):
+
+  Ctrl+Alt+Del+Del
+  Ctrl+Alt+Break
+  Ctrl+Shift+Esc
+  Ctrl+Esc
+  Shift+F10
+  Alt+Tab|Space|Esc|Enter|PrtScr (Alt+Shift+Tab)
+  F2|F4,Esc|F6|F7
+  Ctrl+F5
+  Win+Break
+  Win+E|F|D|R|L|M (Win+Shift+M)
+  Win+Tab (Win+Shift+Tab)
+  Ctrl+Tab|Left|Right
+  Ctrl+A|C|F|G|H|M|N|O|P|S|V|X|Z
+  Ctrl+Ins|Shift+Del|Shift+Ins
+
+
+Сочитания клавиш Unix (+что и когда делают, в режимах EMACS/VI):
+
+  TAB, Ctrl+U
+  Ctrl+Alt+Del
+  Ctrl+Alt+Fn, Alt+Fn
+  Ctrl+Alt+Backspace
+  Up, Down, Ctrl+R
+  Shift+PgUp, Shift+PgDown
+  ~
+
+
+Расширения файлов (+что внутри, в каких ОС и как используются):
+
+  exe, dll, ocx, scr, cpl, drv, vxd
+  com, sys, bin, ovl
+  bat, cmd, inf, reg, adm
+  pif, lnk, scf, url
+  msc
+  js, vbs, wsf, wsc
+  cab, zip, rar, iso, msi
+  pwl
+
+
+Кодировки символов (+размер символа):
+
+  cp866
+  windows-1251
+  koi8-r (cp878)
+  iso-8859-5
+  mac-cyrillic-2000 (100007)
+  utf-8
+  utf-16
+
+
+Файловые системы (+размеры файла, тома, число файлов, длина имён):
+
+  FAT12, FAT16, FAT32
+  CDFS (ISO 9660, Joilet, Rock Ridge), UDF
+  NTFS4, NTFS5
+  Ext2, Ext3, Ext4
+  NFS
+
+
+Скорость файловых операций (+сравнение и объяснение):
+
+  чтения
+  записи
+  маленьких файлов
+  больших файлов
+  фрагментированных и не очень
+  первый и второй раз
+  проверки (scandisk, chkdsk)
+  полного форматирования
+  поиска по имени
+  поиска по фрагменту
+
+
+Специальные файлы Windows (+кем и как используются, где лежат):
+
+  con, prn, aux, nul, comN, lptN (N=1..9)  +создать :)
+  msdos.sys, autoexec.bat, config.sys
+  ntldr, boot.ini
+  pagefile.sys
+  ntoskrnl.exe, hal.dll, ntdll.dll
+  default, SAM, system
+
+
+Специальные файлы Unix (+кем и как используются, где лежат):
+
+  zero, null, hda, sda, random, urandom
+  passwd, group, shadow, sudoers
+  fstab, mtab, crontab, services
+  cpuinfo, swaps, version, uptime
+
+
+Службы и системные процессы (+их взаимосвязи и способы запуска):
+
+  Net Logon
+  Workstation, Server
+  Windows Time
+  Print Spooler
+  Messenger
+  Logical Disk Manager
+  Removable Storage
+  Automatic Updates
+  Task Scheduler
+  System Event Notification
+  Event Log
+  svchost.exe
+  dllhost.exe
+  internat.exe
+  services.exe
+  spoolsv.exe
+  winlogon.exe
+  lsass.exe
+  csrss.exe
+  mdm.exe
+
+
+Числа (+диапазоны значений):
+
+  Частота процессора
+  Размер оперативной памяти
+  Размер жёсткого диска
+  Размер кластера
+  Количество открытых файлов
+  Количество запущенных процессов и потоков
+  Размер файла подкачки
+  Размер ядра системы (в памяти и на диске)
+  Размер невыгружаемого страничного пула
+  Количество файловых операций в час
+  Размер видеопамяти
+  Количество клавиш на клавиатуре
+
+
+Адреса в вебе (+что там):
+
+  http://wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC
+  http://awards.acm.org/
+  http://www.oshistory.net/
+  http://www.levenez.com/
+  http://www.microsoft.com/technet/sysinternals/
+  http://cs.usu.edu.ru/docs/pe/
+  http://cs.usu.edu.ru/study/presentfs.html
+  http://web.archive.org/web/20000610180607/czyborra.com/
+  http://kernel.org/
+  http://freebsd.org/
+  http://debian.org/
+  http://ubuntu.com/
+
+
+Почтовые адреса (+ФИО чьи):
+
+  abvmt@e1.ru
+  leonid@volkanin.ru
+  yury@usaaa.ru
+  znick@hackerdom.ru
